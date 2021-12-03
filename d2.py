@@ -20,7 +20,7 @@ def up(pos=0):
     aim -= pos
 
 
-with open('input.txt') as f:
+with open('inputD2.txt') as f:
     moves = f.readlines()
 
 for i in moves:
